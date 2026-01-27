@@ -1,0 +1,38 @@
+{
+    "/api/chat": {
+        "target": "http://127.0.0.1:11434",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api/chat": "/api/chat"
+        },
+        "logLevel": "debug"
+    },
+    "/api/php": {
+        "target": "http://127.0.0.1",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api/php": "/backend/php"
+        },
+        "logLevel": "debug"
+    },
+    "/api/external": {
+        "target": "https://mon-compte.rafi9ni.pro",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api/external": ""
+        },
+        "logLevel": "debug"
+    },
+    "/api/direct": {
+        "target": "https://mon-compte.rafi9ni.pro",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api/direct": ""
+        },
+        "logLevel": "debug"
+    }
+}

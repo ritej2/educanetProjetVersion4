@@ -1,0 +1,129 @@
+<div class="container mt-4">
+    <div class="header-actions mb-3">
+        <button class="btn btn-outline-secondary" (click)="toggleLanguage()">
+            <i class="fa fa-language"></i> {{ currentLang === 'fr' ? 'العربية' : 'Français' }}
+        </button>
+    </div>
+
+    <!-- Section Rendement Scolaire -->
+    <div class="card section" id="section1">
+        <div class="section-header">
+            <div class="section-number">1</div>
+            <h2 class="section-title">
+                <span [class.hidden]="currentLang !== 'fr'">Rendement Scolaire</span>
+                <span [class.hidden]="currentLang !== 'ar'">الأداء المدرسي</span>
+            </h2>
+        </div>
+
+        <form (ngSubmit)="onSubmit()" #questionnaireForm="ngForm">
+            <div class="question-group">
+                <label class="question-label">
+                    <span [class.hidden]="currentLang !== 'fr'">Nom de l'enfant</span>
+                    <span [class.hidden]="currentLang !== 'ar'">اسم الطفل</span>
+                </label>
+                <input type="text" name="q_nom" [(ngModel)]="formData.q_nom" required
+                    [placeholder]="currentLang === 'fr' ? 'Ex: Ahmed' : 'مثال: أحمد'" class="form-control">
+            </div>
+
+            <div class="question-group">
+                <label class="question-label">
+                    <span [class.hidden]="currentLang !== 'fr'">Âge de l'enfant</span>
+                    <span [class.hidden]="currentLang !== 'ar'">عمر الطفل</span>
+                </label>
+                <input type="number" name="q_age" [(ngModel)]="formData.q_age" min="0" max="15" placeholder="0-15 ans"
+                    class="form-control">
+            </div>
+
+            <div class="question-group">
+                <label class="question-label">
+                    <span [class.hidden]="currentLang !== 'fr'">Niveau d'études actuel</span>
+                    <span [class.hidden]="currentLang !== 'ar'">المستوى الدراسي الحالي</span>
+                </label>
+                <select name="q_niveau" [(ngModel)]="formData.q_niveau" class="form-select">
+                    <option value="">-- Sélectionnez --</option>
+                    <option value="0">Maternelle</option>
+                    <option value="1">1ère année</option>
+                    <option value="2">2ème année</option>
+                    <option value="3">3ème année</option>
+                    <option value="4">4ème année</option>
+                    <option value="5">5ème année</option>
+                    <option value="6">6ème année</option>
+
+                </select>
+            </div>
+
+            <div class="question-group">
+                <label class="question-label">
+                    <span [class.hidden]="currentLang !== 'fr'">Moyenne générale (moyenne)</span>
+                    <span [class.hidden]="currentLang !== 'ar'">المعدل العام</span>
+                </label>
+                <input type="number" name="q_moyenne" [(ngModel)]="formData.q_moyenne" min="0" max="20" step="0.5"
+                    placeholder="0-20" class="form-control">
+            </div>
+
+            <div class="question-group">
+                <label class="question-label">
+                    <span [class.hidden]="currentLang !== 'fr'">Note en mathématiques</span>
+                    <span [class.hidden]="currentLang !== 'ar'">العدد في مادة الرياضيات</span>
+                </label>
+                <input type="number" name="q_math" [(ngModel)]="formData.q_math" min="0" max="20" step="0.5"
+                    placeholder="0-20" class="form-control">
+            </div>
+
+            <div class="question-group">
+                <label class="question-label">
+                    <span [class.hidden]="currentLang !== 'fr'">Note en éveil scientifique</span>
+                    <span [class.hidden]="currentLang !== 'ar'">العدد في الايقاظ العلمي</span>
+                </label>
+                <input type="number" name="q_science" [(ngModel)]="formData.q_science" min="0" max="20" step="0.5"
+                    placeholder="0-20" class="form-control">
+            </div>
+
+            <div class="question-group">
+                <label class="question-label">
+                    <span [class.hidden]="currentLang !== 'fr'">Note en Anglais</span>
+                    <span [class.hidden]="currentLang !== 'ar'">العدد في مادة الانقليزية</span>
+                </label>
+                <input type="number" name="q_anglais" [(ngModel)]="formData.q_anglais" min="0" max="20" step="0.5"
+                    placeholder="0-20" class="form-control">
+            </div>
+
+            <div class="question-group">
+                <label class="question-label">
+                    <span [class.hidden]="currentLang !== 'fr'">Observations des enseignants sur les notes</span>
+                    <span [class.hidden]="currentLang !== 'ar'">ملاحظات المعلمين على النتائج</span>
+                </label>
+                <div class="radio-group d-flex gap-3 mt-2">
+                    <label class="radio-option">
+                        <input type="radio" name="q_obs" value="Très bien" [(ngModel)]="formData.q_obs">
+                        <span [class.hidden]="currentLang !== 'fr'">Très bien</span>
+                        <span [class.hidden]="currentLang !== 'ar'">جيد جداً</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="q_obs" value="Bien" [(ngModel)]="formData.q_obs">
+                        <span [class.hidden]="currentLang !== 'fr'">Bien</span>
+                        <span [class.hidden]="currentLang !== 'ar'">جيد</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="q_obs" value="Passable" [(ngModel)]="formData.q_obs">
+                        <span [class.hidden]="currentLang !== 'fr'">Passable</span>
+                        <span [class.hidden]="currentLang !== 'ar'">مقبول</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="question-group mt-4">
+                <label class="question-label">
+                    <span [class.hidden]="currentLang !== 'fr'">Comportement et autres observations</span>
+                    <span [class.hidden]="currentLang !== 'ar'">السلوك وملاحظات أخرى</span>
+                </label>
+                <textarea name="q_comportement" [(ngModel)]="formData.q_comportement" class="form-control" rows="3"
+                    [placeholder]="currentLang === 'fr' ? 'Décrivez le comportement de votre enfant...' : 'صف سلوك طفلك...'"></textarea>
+            </div>
+
+            <div class="mt-4 text-center">
+                <button type="submit" class="btn btn-primary btn-lg px-5">Enregistrer le Questionnaire</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,102 @@
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    border: none;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f8f9fa;
+}
+
+.section-number {
+    background: #FF85A2;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.section-title h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.question-group {
+    margin-bottom: 1.5rem;
+}
+
+.question-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #555;
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.radio-group {
+    padding: 0.5rem;
+    background: #fdfdfd;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #FF85A2;
+    box-shadow: 0 0 0 0.2rem rgba(255, 133, 162, 0.1);
+}
+
+.btn-primary {
+    background-color: #FF85A2;
+    border: none;
+    border-radius: 25px;
+    padding: 0.8rem 2.5rem;
+    font-weight: 600;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #ff6b8e;
+    transform: translateY(-2px);
+}
+
+.header-actions {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}

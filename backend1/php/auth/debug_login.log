@@ -1,0 +1,1902 @@
+--- 2026-01-23 19:10:59 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxODU1MTgsImV4cCI6MTc2OTc5MDMxOCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9._3oTNy6Z61yi8v6AStJTb3VL67l0OW22t0Gg1644jyc
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxODU1MTgsImV4cCI6MTc2OTc5MDMxOCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9._3oTNy6Z61yi8v6AStJTb3VL67l0OW22t0Gg1644jyc
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxODU1MTgsImV4cCI6MTc2OTc5MDMxOCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9._3oTNy6Z61yi8v6AStJTb3VL67l0OW22t0Gg1644jyc
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+    [cookie] => JSESSIONID=1A125B8CCC69101FA5323A9A0F0D5361
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 19:11:08 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTE4NTksImV4cCI6MTc2OTc5NjY1OSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.cqikShFWb-lmiwq9uNVzNMC0aK0O_4IVYcBXx_itZZw
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTE4NTksImV4cCI6MTc2OTc5NjY1OSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.cqikShFWb-lmiwq9uNVzNMC0aK0O_4IVYcBXx_itZZw
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTE4NTksImV4cCI6MTc2OTc5NjY1OSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.cqikShFWb-lmiwq9uNVzNMC0aK0O_4IVYcBXx_itZZw
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+    [cookie] => JSESSIONID=1A125B8CCC69101FA5323A9A0F0D5361
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 19:13:14 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTE4NjgsImV4cCI6MTc2OTc5NjY2OCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.m4WCEe7NhjZ8uCRCgPQf1Cim08YK3ahUiI7tnSnjQPs
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTE4NjgsImV4cCI6MTc2OTc5NjY2OCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.m4WCEe7NhjZ8uCRCgPQf1Cim08YK3ahUiI7tnSnjQPs
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTE4NjgsImV4cCI6MTc2OTc5NjY2OCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.m4WCEe7NhjZ8uCRCgPQf1Cim08YK3ahUiI7tnSnjQPs
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+    [cookie] => JSESSIONID=1A125B8CCC69101FA5323A9A0F0D5361
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 19:20:45 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTE5OTQsImV4cCI6MTc2OTc5Njc5NCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.KEkyluS0L2Rr0ent8NYkXgD4EUMwRLyU94DD6Fw4km0
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTE5OTQsImV4cCI6MTc2OTc5Njc5NCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.KEkyluS0L2Rr0ent8NYkXgD4EUMwRLyU94DD6Fw4km0
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTE5OTQsImV4cCI6MTc2OTc5Njc5NCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.KEkyluS0L2Rr0ent8NYkXgD4EUMwRLyU94DD6Fw4km0
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+    [cookie] => JSESSIONID=1A125B8CCC69101FA5323A9A0F0D5361
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 20:06:19 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTI0NDUsImV4cCI6MTc2OTc5NzI0NSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.RMgbfKR5zPYgD8w8gSuIJCAcuDR_L4bzuzOPbMtNI1g
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTI0NDUsImV4cCI6MTc2OTc5NzI0NSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.RMgbfKR5zPYgD8w8gSuIJCAcuDR_L4bzuzOPbMtNI1g
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTI0NDUsImV4cCI6MTc2OTc5NzI0NSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.RMgbfKR5zPYgD8w8gSuIJCAcuDR_L4bzuzOPbMtNI1g
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 22:25:24 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTUxNzksImV4cCI6MTc2OTc5OTk3OSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.m8T0l_Oia-JWr9EBTVZN_-gPe5VrzV0xStMyI9A8te0
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTUxNzksImV4cCI6MTc2OTc5OTk3OSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.m8T0l_Oia-JWr9EBTVZN_-gPe5VrzV0xStMyI9A8te0
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkxOTUxNzksImV4cCI6MTc2OTc5OTk3OSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.m8T0l_Oia-JWr9EBTVZN_-gPe5VrzV0xStMyI9A8te0
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 22:25:31 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:27:13 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwMzUzMiwiZXhwIjoxNzY5ODA4MzMyLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.7BVSSJkYMsgJJntEf4j5NpuB4Nkb8YCaWwbLU8Wgjpo
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwMzUzMiwiZXhwIjoxNzY5ODA4MzMyLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.7BVSSJkYMsgJJntEf4j5NpuB4Nkb8YCaWwbLU8Wgjpo
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwMzUzMiwiZXhwIjoxNzY5ODA4MzMyLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.7BVSSJkYMsgJJntEf4j5NpuB4Nkb8YCaWwbLU8Wgjpo
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:27:22 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwMzYzNCwiZXhwIjoxNzY5ODA4NDM0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.UFIFhXikHLvzbYM7kbQ2X_i19hUPjBlYCsNXBnFupMw
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwMzYzNCwiZXhwIjoxNzY5ODA4NDM0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.UFIFhXikHLvzbYM7kbQ2X_i19hUPjBlYCsNXBnFupMw
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwMzYzNCwiZXhwIjoxNzY5ODA4NDM0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.UFIFhXikHLvzbYM7kbQ2X_i19hUPjBlYCsNXBnFupMw
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:27:27 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:32:44 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwMzY0NywiZXhwIjoxNzY5ODA4NDQ3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.pYgdHedLmEu-kXMltsuORV7fb0smq324V4fDkx_4bQo
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwMzY0NywiZXhwIjoxNzY5ODA4NDQ3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.pYgdHedLmEu-kXMltsuORV7fb0smq324V4fDkx_4bQo
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwMzY0NywiZXhwIjoxNzY5ODA4NDQ3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.pYgdHedLmEu-kXMltsuORV7fb0smq324V4fDkx_4bQo
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:36:18 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:36:23 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 22:36:30 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:39:28 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDE5MCwiZXhwIjoxNzY5ODA4OTkwLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.iECbLgg7Hibhxw5vHmPxvnoRCx3kFOQaTOh8oxJGWVg
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDE5MCwiZXhwIjoxNzY5ODA4OTkwLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.iECbLgg7Hibhxw5vHmPxvnoRCx3kFOQaTOh8oxJGWVg
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDE5MCwiZXhwIjoxNzY5ODA4OTkwLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.iECbLgg7Hibhxw5vHmPxvnoRCx3kFOQaTOh8oxJGWVg
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:39:33 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDM2OCwiZXhwIjoxNzY5ODA5MTY4LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.LyCs-n6SpMWm1nRMd2CrZRbXh5G3ZwpAThdWsQxi7Qg
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDM2OCwiZXhwIjoxNzY5ODA5MTY4LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.LyCs-n6SpMWm1nRMd2CrZRbXh5G3ZwpAThdWsQxi7Qg
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDM2OCwiZXhwIjoxNzY5ODA5MTY4LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.LyCs-n6SpMWm1nRMd2CrZRbXh5G3ZwpAThdWsQxi7Qg
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:40:19 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:40:22 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:41:06 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 22:41:17 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:42:04 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDQ3NywiZXhwIjoxNzY5ODA5Mjc3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.9OOk9iztpklikL21EPbw30EaiJNqxp9h3sijUobCioc
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDQ3NywiZXhwIjoxNzY5ODA5Mjc3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.9OOk9iztpklikL21EPbw30EaiJNqxp9h3sijUobCioc
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDQ3NywiZXhwIjoxNzY5ODA5Mjc3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.9OOk9iztpklikL21EPbw30EaiJNqxp9h3sijUobCioc
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:47:50 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDUyNCwiZXhwIjoxNzY5ODA5MzI0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.sYrNXjEMZZ3rXtMMctOM7fdLcWb8pX5Hr9dUzxmT8kw
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDUyNCwiZXhwIjoxNzY5ODA5MzI0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.sYrNXjEMZZ3rXtMMctOM7fdLcWb8pX5Hr9dUzxmT8kw
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDUyNCwiZXhwIjoxNzY5ODA5MzI0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.sYrNXjEMZZ3rXtMMctOM7fdLcWb8pX5Hr9dUzxmT8kw
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:50:13 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDg3MCwiZXhwIjoxNzY5ODA5NjcwLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.TNa9flnfX5W-y7JMYx6G7EVsLpCOzZ9Oj0QkwMdsLXU
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDg3MCwiZXhwIjoxNzY5ODA5NjcwLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.TNa9flnfX5W-y7JMYx6G7EVsLpCOzZ9Oj0QkwMdsLXU
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNDg3MCwiZXhwIjoxNzY5ODA5NjcwLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.TNa9flnfX5W-y7JMYx6G7EVsLpCOzZ9Oj0QkwMdsLXU
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:59:34 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNTAxMywiZXhwIjoxNzY5ODA5ODEzLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.uV2puZtxHaBVfVozyP7zmbZ7L-QDmXQklmJ8P1FjY5A
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNTAxMywiZXhwIjoxNzY5ODA5ODEzLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.uV2puZtxHaBVfVozyP7zmbZ7L-QDmXQklmJ8P1FjY5A
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNTAxMywiZXhwIjoxNzY5ODA5ODEzLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.uV2puZtxHaBVfVozyP7zmbZ7L-QDmXQklmJ8P1FjY5A
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 22:59:39 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNTU3NCwiZXhwIjoxNzY5ODEwMzc0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.Nq6icONbr2lGhIIXm-9BxgEnYonTogpvcTsf0Hc_EoY
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNTU3NCwiZXhwIjoxNzY5ODEwMzc0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.Nq6icONbr2lGhIIXm-9BxgEnYonTogpvcTsf0Hc_EoY
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNTU3NCwiZXhwIjoxNzY5ODEwMzc0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.Nq6icONbr2lGhIIXm-9BxgEnYonTogpvcTsf0Hc_EoY
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:01:16 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 23:10:00 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyMDU2NzYsImV4cCI6MTc2OTgxMDQ3NiwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.yloo6v_BjlC5ixvcD49biUbWfFhOdkciZw3dbAUgmOM
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyMDU2NzYsImV4cCI6MTc2OTgxMDQ3NiwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.yloo6v_BjlC5ixvcD49biUbWfFhOdkciZw3dbAUgmOM
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyMDU2NzYsImV4cCI6MTc2OTgxMDQ3NiwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.yloo6v_BjlC5ixvcD49biUbWfFhOdkciZw3dbAUgmOM
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 23:10:11 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 50
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"test@test.com","password":"password123"}
+Decoded Input: Array
+(
+    [email] => test@test.com
+    [password] => password123
+)
+
+--- 2026-01-23 23:10:11 ---
+Sanitized User to be sent: Array
+(
+    [id] => 1
+    [name] => Test
+    [email] => test@test.com
+    [role] => user
+    [created_at] => 2026-01-15 14:58:58
+)
+
+Original User from DB: Array
+(
+    [id] => 1
+    [name] => Test
+    [email] => test@test.com
+    [role] => user
+    [created_at] => 2026-01-15 14:58:58
+)
+
+--- 2026-01-23 23:11:36 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:11:36 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-23 23:26:13 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNjI5NiwiZXhwIjoxNzY5ODExMDk2LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.9Ff6DK3vxbb-ALta36bFaodw6wPSMFKuED7k-K7bKc8
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNjI5NiwiZXhwIjoxNzY5ODExMDk2LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.9Ff6DK3vxbb-ALta36bFaodw6wPSMFKuED7k-K7bKc8
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNjI5NiwiZXhwIjoxNzY5ODExMDk2LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.9Ff6DK3vxbb-ALta36bFaodw6wPSMFKuED7k-K7bKc8
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-23 23:26:13 ---
+Sanitized User to be sent: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+Original User from DB: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+--- 2026-01-23 23:26:23 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [content-type] => application/json
+    [sec-ch-ua-mobile] => ?0
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:26:23 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-23 23:30:06 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzE4MywiZXhwIjoxNzY5ODExOTgzLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.WeivdSQIqx-gmY_UiEk_3M1HH9uoEB_ig2OQGdg-ruY
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzE4MywiZXhwIjoxNzY5ODExOTgzLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.WeivdSQIqx-gmY_UiEk_3M1HH9uoEB_ig2OQGdg-ruY
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzE4MywiZXhwIjoxNzY5ODExOTgzLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.WeivdSQIqx-gmY_UiEk_3M1HH9uoEB_ig2OQGdg-ruY
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:30:06 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-23 23:30:27 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzQwNiwiZXhwIjoxNzY5ODEyMjA2LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.ww8vDI6y_JK24gQ0BhF31nbdKFnzixPfRTk93btvWQQ
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzQwNiwiZXhwIjoxNzY5ODEyMjA2LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.ww8vDI6y_JK24gQ0BhF31nbdKFnzixPfRTk93btvWQQ
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzQwNiwiZXhwIjoxNzY5ODEyMjA2LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.ww8vDI6y_JK24gQ0BhF31nbdKFnzixPfRTk93btvWQQ
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:30:27 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-23 23:36:04 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzQyNywiZXhwIjoxNzY5ODEyMjI3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.LGWGQ4QLJP4B0r5bRPbtxKlkT6pA42EUxEtAfeDjOFQ
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzQyNywiZXhwIjoxNzY5ODEyMjI3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.LGWGQ4QLJP4B0r5bRPbtxKlkT6pA42EUxEtAfeDjOFQ
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzQyNywiZXhwIjoxNzY5ODEyMjI3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.LGWGQ4QLJP4B0r5bRPbtxKlkT6pA42EUxEtAfeDjOFQ
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:36:04 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-23 23:36:11 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzc2NCwiZXhwIjoxNzY5ODEyNTY0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.BBqEEXHz0SaxCC_TUY_5GEE4uxii1pbCSMggvduvpz0
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzc2NCwiZXhwIjoxNzY5ODEyNTY0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.BBqEEXHz0SaxCC_TUY_5GEE4uxii1pbCSMggvduvpz0
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzc2NCwiZXhwIjoxNzY5ODEyNTY0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.BBqEEXHz0SaxCC_TUY_5GEE4uxii1pbCSMggvduvpz0
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:36:11 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-23 23:42:46 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzc3MSwiZXhwIjoxNzY5ODEyNTcxLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.96Ml6IsKh7XN4DEEXfXNwPWZlZpWNTQ7wys4Sc2F4Ac
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzc3MSwiZXhwIjoxNzY5ODEyNTcxLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.96Ml6IsKh7XN4DEEXfXNwPWZlZpWNTQ7wys4Sc2F4Ac
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwNzc3MSwiZXhwIjoxNzY5ODEyNTcxLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.96Ml6IsKh7XN4DEEXfXNwPWZlZpWNTQ7wys4Sc2F4Ac
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:42:46 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-23 23:48:44 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwODE2NiwiZXhwIjoxNzY5ODEyOTY2LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.I6KALkAPi32uKS2zs6AVUccyqa04vafYtVVG6sZ0SWY
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwODE2NiwiZXhwIjoxNzY5ODEyOTY2LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.I6KALkAPi32uKS2zs6AVUccyqa04vafYtVVG6sZ0SWY
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwODE2NiwiZXhwIjoxNzY5ODEyOTY2LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.I6KALkAPi32uKS2zs6AVUccyqa04vafYtVVG6sZ0SWY
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:48:44 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-23 23:51:13 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwODUyNCwiZXhwIjoxNzY5ODEzMzI0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.vzAcZCl_KgJ-Aw3g5gB6x7NIEz0GaeDXmAym8Wox7Gc
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwODUyNCwiZXhwIjoxNzY5ODEzMzI0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.vzAcZCl_KgJ-Aw3g5gB6x7NIEz0GaeDXmAym8Wox7Gc
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwODUyNCwiZXhwIjoxNzY5ODEzMzI0LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.vzAcZCl_KgJ-Aw3g5gB6x7NIEz0GaeDXmAym8Wox7Gc
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-23 23:51:13 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-24 12:25:41 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwODY3MywiZXhwIjoxNzY5ODEzNDczLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.MjgnLdN_6qI_WxO45mit6o9tph_jgYTefVwH-IIVJTg
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwODY3MywiZXhwIjoxNzY5ODEzNDczLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.MjgnLdN_6qI_WxO45mit6o9tph_jgYTefVwH-IIVJTg
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTIwODY3MywiZXhwIjoxNzY5ODEzNDczLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.MjgnLdN_6qI_WxO45mit6o9tph_jgYTefVwH-IIVJTg
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-24 12:25:41 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-24 12:25:57 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI1Mzk0MSwiZXhwIjoxNzY5ODU4NzQxLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.Fvl7zMVVRX5jLRjgs_85x5dk3kUrEQSu4iYDrimtnQc
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI1Mzk0MSwiZXhwIjoxNzY5ODU4NzQxLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.Fvl7zMVVRX5jLRjgs_85x5dk3kUrEQSu4iYDrimtnQc
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI1Mzk0MSwiZXhwIjoxNzY5ODU4NzQxLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.Fvl7zMVVRX5jLRjgs_85x5dk3kUrEQSu4iYDrimtnQc
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-24 12:25:57 ---
+Sanitized User to be sent: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+Original User from DB: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+--- 2026-01-24 12:32:10 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyNTM5NTcsImV4cCI6MTc2OTg1ODc1NywiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.VVK0E6pzD8pVEvMDpwT2wyIjS075kH1iehOZ8Yg-py0
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyNTM5NTcsImV4cCI6MTc2OTg1ODc1NywiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.VVK0E6pzD8pVEvMDpwT2wyIjS075kH1iehOZ8Yg-py0
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyNTM5NTcsImV4cCI6MTc2OTg1ODc1NywiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.VVK0E6pzD8pVEvMDpwT2wyIjS075kH1iehOZ8Yg-py0
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-24 12:32:10 ---
+Sanitized User to be sent: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+Original User from DB: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+--- 2026-01-24 20:49:16 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyNTQzMzAsImV4cCI6MTc2OTg1OTEzMCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.USNnw_15Cb80TtO-KUoKKXLo54w857SJPOt24UMPpsc
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyNTQzMzAsImV4cCI6MTc2OTg1OTEzMCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.USNnw_15Cb80TtO-KUoKKXLo54w857SJPOt24UMPpsc
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyNTQzMzAsImV4cCI6MTc2OTg1OTEzMCwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.USNnw_15Cb80TtO-KUoKKXLo54w857SJPOt24UMPpsc
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-24 20:49:16 ---
+Sanitized User to be sent: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+Original User from DB: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+--- 2026-01-24 20:58:04 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 47
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyODQxNTYsImV4cCI6MTc2OTg4ODk1NiwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.mjI3wPRH2ymuGKz5ObvAubfezD9KzAKJrV93cjrmcSE
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyODQxNTYsImV4cCI6MTc2OTg4ODk1NiwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.mjI3wPRH2ymuGKz5ObvAubfezD9KzAKJrV93cjrmcSE
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyODQxNTYsImV4cCI6MTc2OTg4ODk1NiwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.mjI3wPRH2ymuGKz5ObvAubfezD9KzAKJrV93cjrmcSE
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"jean@gmail.com","password":"jean123"}
+Decoded Input: Array
+(
+    [email] => jean@gmail.com
+    [password] => jean123
+)
+
+--- 2026-01-24 20:58:05 ---
+Sanitized User to be sent: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+Original User from DB: Array
+(
+    [id] => 2
+    [name] => Jean
+    [email] => jean@gmail.com
+    [role] => user
+    [created_at] => 2026-01-19 12:07:28
+)
+
+--- 2026-01-24 20:59:59 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyODQ2ODUsImV4cCI6MTc2OTg4OTQ4NSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.qbq9b3VTtZHA-fuDDBvoL9xTWYKAQFMuVkzzEj5fL9w
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyODQ2ODUsImV4cCI6MTc2OTg4OTQ4NSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.qbq9b3VTtZHA-fuDDBvoL9xTWYKAQFMuVkzzEj5fL9w
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImplYW5AZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjkyODQ2ODUsImV4cCI6MTc2OTg4OTQ4NSwiaXNzIjoiYW5ndWxhci1jaGF0LWFwcCJ9.qbq9b3VTtZHA-fuDDBvoL9xTWYKAQFMuVkzzEj5fL9w
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-24 20:59:59 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-24 21:05:27 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NDc5OSwiZXhwIjoxNzY5ODg5NTk5LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.VOrELU1yu1E5UJTQugsn7N0Fxw-bXMwt7_KbYj6dqJg
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NDc5OSwiZXhwIjoxNzY5ODg5NTk5LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.VOrELU1yu1E5UJTQugsn7N0Fxw-bXMwt7_KbYj6dqJg
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NDc5OSwiZXhwIjoxNzY5ODg5NTk5LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.VOrELU1yu1E5UJTQugsn7N0Fxw-bXMwt7_KbYj6dqJg
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-24 21:05:27 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-24 21:10:57 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NTEyNywiZXhwIjoxNzY5ODg5OTI3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.jT5PwQxDD6xJo7NIfxOvGr4zgg1WSMZY1tidDOYg_KE
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NTEyNywiZXhwIjoxNzY5ODg5OTI3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.jT5PwQxDD6xJo7NIfxOvGr4zgg1WSMZY1tidDOYg_KE
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NTEyNywiZXhwIjoxNzY5ODg5OTI3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.jT5PwQxDD6xJo7NIfxOvGr4zgg1WSMZY1tidDOYg_KE
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-24 21:10:57 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-24 21:18:30 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NTQ1NywiZXhwIjoxNzY5ODkwMjU3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.G2BqxGA66fzgaze1s6gOtQjf5mT8iLET8NOsaQVjORs
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NTQ1NywiZXhwIjoxNzY5ODkwMjU3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.G2BqxGA66fzgaze1s6gOtQjf5mT8iLET8NOsaQVjORs
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NTQ1NywiZXhwIjoxNzY5ODkwMjU3LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.G2BqxGA66fzgaze1s6gOtQjf5mT8iLET8NOsaQVjORs
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-24 21:18:30 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-24 21:21:48 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NTkxMCwiZXhwIjoxNzY5ODkwNzEwLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.esJWQjZn3VnSNDyu2FBCk6xTwpi1Cn1qGnTpqdtfkmA
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NTkxMCwiZXhwIjoxNzY5ODkwNzEwLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.esJWQjZn3VnSNDyu2FBCk6xTwpi1Cn1qGnTpqdtfkmA
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NTkxMCwiZXhwIjoxNzY5ODkwNzEwLCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.esJWQjZn3VnSNDyu2FBCk6xTwpi1Cn1qGnTpqdtfkmA
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-24 21:21:48 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+--- 2026-01-24 21:23:35 ---
+Headers: Array
+(
+    [host] => 127.0.0.1
+    [connection] => close
+    [content-length] => 49
+    [sec-ch-ua-platform] => "Windows"
+    [authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NjEwOCwiZXhwIjoxNzY5ODkwOTA4LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.5AhPRL1lmuJyGleRUEt8gNDYtOXPo5cylNxhGmxRvCg
+    [sec-ch-ua] => "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+    [x-token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NjEwOCwiZXhwIjoxNzY5ODkwOTA4LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.5AhPRL1lmuJyGleRUEt8gNDYtOXPo5cylNxhGmxRvCg
+    [x-authorization] => Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2OTI4NjEwOCwiZXhwIjoxNzY5ODkwOTA4LCJpc3MiOiJhbmd1bGFyLWNoYXQtYXBwIn0.5AhPRL1lmuJyGleRUEt8gNDYtOXPo5cylNxhGmxRvCg
+    [sec-ch-ua-mobile] => ?0
+    [user-agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+    [accept] => application/json, text/plain, */*
+    [content-type] => application/json
+    [origin] => http://localhost:4200
+    [sec-fetch-site] => same-origin
+    [sec-fetch-mode] => cors
+    [sec-fetch-dest] => empty
+    [referer] => http://localhost:4200/login
+    [accept-encoding] => gzip, deflate, br, zstd
+    [accept-language] => en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7,ar;q=0.6
+)
+
+Raw Input: {"email":"admin@admin.com","password":"admin123"}
+Decoded Input: Array
+(
+    [email] => admin@admin.com
+    [password] => admin123
+)
+
+--- 2026-01-24 21:23:35 ---
+Sanitized User to be sent: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+
+Original User from DB: Array
+(
+    [id] => 3
+    [name] => Admin
+    [email] => admin@admin.com
+    [role] => admin
+    [created_at] => 2026-01-21 21:33:08
+)
+

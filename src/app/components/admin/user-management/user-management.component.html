@@ -1,0 +1,83 @@
+<div class="admin-container">
+    <div class="search-container">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" [(ngModel)]="searchTerm" (input)="onSearch()" placeholder="Rechercher un utilisateur...">
+        </div>
+    </div>
+
+    <div class="dashboard-content">
+        <div class="content-card list-section">
+            <div class="card-header">
+                <h2>Liste des utilisateurs</h2>
+            </div>
+            <div class="user-list">
+                <div class="user-item" *ngFor="let user of filteredUsers" [class.active]="selectedUserId === user.id"
+                    (click)="viewDetails(user.id)">
+                    <div class="user-main-info">
+                        <div class="user-name">{{ user.name }}</div>
+                        <div class="user-email">{{ user.email }}</div>
+                        <div class="user-meta">
+                            <span><i class="far fa-clock"></i> {{ user.children_count || 0 }} enfant(s)</span>
+                            <span><i class="far fa-comment-alt"></i> {{ user.conversations_count || 0 }}
+                                conversation(s)</span>
+                        </div>
+                    </div>
+                    <div class="user-actions">
+                        <button class="btn-action view" (click)="viewDetails(user.id); $event.stopPropagation()">
+                            <i class="far fa-eye"></i>
+                        </button>
+                        <button class="btn-action delete"
+                            (click)="deleteUser(user.id, $event); $event.stopPropagation()">
+                            <i class="far fa-trash-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-card details-section">
+            <div class="card-header">
+                <h2>Détails de l'utilisateur</h2>
+            </div>
+
+            <div class="details-placeholder" *ngIf="!selectedUser && !loadingDetails">
+                Sélectionnez un utilisateur pour voir ses détails
+            </div>
+
+            <div class="loader-container" *ngIf="loadingDetails">
+                <div class="spinner"></div>
+            </div>
+
+            <div class="user-details" *ngIf="selectedUser && !loadingDetails">
+                <section class="details-group">
+                    <h3>Informations personnelles</h3>
+
+                    <div class="info-item">
+                        <label>Nom :</label>
+                        <div class="info-value">{{ selectedUser.profile.name }}</div>
+                    </div>
+
+                    <div class="info-item">
+                        <label>Email :</label>
+                        <div class="info-value">{{ selectedUser.profile.email }}</div>
+                    </div>
+
+                    <div class="info-item">
+                        <label>Date d'inscription :</label>
+                        <div class="info-value">{{ selectedUser.profile.created_at | date:'dd/MM/yyyy' }}</div>
+                    </div>
+                </section>
+
+                <section class="details-group" *ngIf="selectedUser.children.length">
+                    <h3>Enfants ({{ selectedUser.children.length }})</h3>
+                    <div class="children-tags">
+                        <span class="child-tag" *ngFor="let child of selectedUser.children">
+                            {{ child.first_name }} ({{ child.birth_date | date:'yyyy' }})
+                        </span>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>

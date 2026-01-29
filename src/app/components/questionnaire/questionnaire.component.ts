@@ -14,17 +14,40 @@ import { AuthService } from '../../services/auth.service';
 })
 export class QuestionnaireComponent {
     currentLang: 'fr' | 'ar' = 'fr';
+    currentStep: number = 1;
+    totalSteps: number = 4;
 
     formData: any = {
-        q_nom: '', // NEW: Nom de l'enfant
+        q_nom: '',
         q_age: null,
         q_niveau: '',
+        // Section 1 - Résultats scolaires
         q_moyenne: null,
         q_math: null,
         q_science: null,
         q_anglais: null,
+        q_lecture_ar: null,
+        q_prod_ar: null,
+        q_dessin_musique: null,
+        q_eps: null,
+        q_lecture_fr: null,
+        q_prod_fr: null,
         q_obs: '',
-        q_comportement: ''
+        q_lecture_attachement: null, // 0 ou 1
+        q_lecture_activites: null,   // 0-3
+        // Section 2 - Comportement
+        q_punitions: null,           // 0-5
+        q_rel_enseignant: null,      // 0-5
+        q_rel_camarades: null,       // 0-5
+        q_comportement_gen: null,    // 0-5
+        q_responsable_objets: '',    // oui/non
+        q_pedopsychiatre: '',        // oui/non
+        q_interets: '',
+        // Section 3 - Biographie
+        q_rang_famille: null,
+        q_qualite_rel_famille: null, // 0-5
+        q_situation_familiale: '',   // Stable/Divorcés/Séparés
+        q_comportement: ''           // Legacy field
     };
 
     constructor(
@@ -32,25 +55,19 @@ export class QuestionnaireComponent {
         private router: Router,
         private authService: AuthService
     ) {
-        // We do initialization in ngOnInit normally, but constructor is also fine if services are ready.
     }
 
     ngOnInit(): void {
         const user = this.authService.getCurrentUser();
         if (user) {
-            // Load persistent data specific to this user
             this.contextService.loadProfileForUser(user.id);
-
-            // Subscribe to see if we have data now
             const existing = this.contextService.getChildProfile();
             if (existing) {
                 this.formData = { ...this.formData, ...existing };
             } else {
-                // Reset form if no data found for this user
                 this.resetForm();
             }
         } else {
-            // Should not happen due to AuthGuard, but safety first
             this.resetForm();
         }
     }
@@ -64,9 +81,55 @@ export class QuestionnaireComponent {
             q_math: null,
             q_science: null,
             q_anglais: null,
+            q_lecture_ar: null,
+            q_prod_ar: null,
+            q_dessin_musique: null,
+            q_eps: null,
+            q_lecture_fr: null,
+            q_prod_fr: null,
             q_obs: '',
+            q_lecture_attachement: null,
+            q_lecture_activites: null,
+            q_punitions: null,
+            q_rel_enseignant: null,
+            q_rel_camarades: null,
+            q_comportement_gen: null,
+            q_responsable_objets: '',
+            q_pedopsychiatre: '',
+            q_interets: '',
+            q_rang_famille: null,
+            q_qualite_rel_famille: null,
+            q_situation_familiale: '',
             q_comportement: ''
         };
+    }
+
+    nextStep(): void {
+        if (this.currentStep < this.totalSteps) {
+            this.currentStep++;
+            window.scrollTo(0, 0);
+        }
+    }
+
+    prevStep(): void {
+        if (this.currentStep > 1) {
+            this.currentStep--;
+            window.scrollTo(0, 0);
+        }
+    }
+
+    goToStep(step: number): void {
+        this.currentStep = step;
+        window.scrollTo(0, 0);
+    }
+
+    getAnsweredCount(): number {
+        const fields = Object.values(this.formData);
+        return fields.filter(v => v !== null && v !== '' && v !== undefined).length;
+    }
+
+    getTotalQuestions(): number {
+        return Object.keys(this.formData).length;
     }
 
     toggleLanguage(): void {

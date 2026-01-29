@@ -1,0 +1,1002 @@
+
+> mon-espace-parent@0.0.0 build
+> ng build
+
+npm : - Building...
+Au caractËre Ligne:1 
+: 1
++ npm run build > 
+build_output.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : 
+NotSpecified: (-     
+Building...:String)  
+   [], 
+RemoteException
+    + 
+FullyQualifiedError  
+  Id : 
+NativeCommandErr    
+or
+ 
+
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+Request URL: /api/php/children.php
+Token exists: false
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+Request URL: /api/php/children.php
+Token exists: false
+Error loading 
+dashboard data y 
+[Error]
+    at r.send (file:/
+//C:/Users/msi-cyborg
+/.gemini/antigravity/
+scratch/angular_projV
+ersionPresqueFinal/.a
+ngular/prerender-root
+/c2b960cf-cc95-479e-b
+9c2-77d4e07711fe/chun
+k-QZP2S7SI.mjs:2:2837
+)
+    at e._subscribe (
+file:///C:/Users/msi-
+cyborg/.gemini/antigr
+avity/scratch/angular
+_projVersionPresqueFi
+nal/.angular/prerende
+r-root/c2b960cf-cc95-
+479e-b9c2-77d4e07711f
+e/chunk-J5ILNMES.mjs:
+35:16357)
+    at 
+e._trySubscribe (file
+:///C:/Users/msi-cybo
+rg/.gemini/antigravit
+y/scratch/angular_pro
+jVersionPresqueFinal/
+.angular/prerender-ro
+ot/c2b960cf-cc95-479e
+-b9c2-77d4e07711fe/ch
+unk-J5ILNMES.mjs:4:43
+99)
+    at file:///C:/Use
+rs/msi-cyborg/.gemini
+/antigravity/scratch/
+angular_projVersionPr
+esqueFinal/.angular/p
+rerender-root/c2b960c
+f-cc95-479e-b9c2-77d4
+e07711fe/chunk-J5ILNM
+ES.mjs:4:4344
+    at bt (file:///C:
+/Users/msi-cyborg/.ge
+mini/antigravity/scra
+tch/angular_projVersi
+onPresqueFinal/.angul
+ar/prerender-root/c2b
+960cf-cc95-479e-b9c2-
+77d4e07711fe/chunk-J5
+ILNMES.mjs:4:2204)
+    at e.subscribe (f
+ile:///C:/Users/msi-c
+yborg/.gemini/antigra
+vity/scratch/angular_
+projVersionPresqueFin
+al/.angular/prerender
+-root/c2b960cf-cc95-4
+79e-b9c2-77d4e07711fe
+/chunk-J5ILNMES.mjs:4
+:4260)
+    at n.subscribe.s 
+(file:///C:/Users/msi
+-cyborg/.gemini/antig
+ravity/scratch/angula
+r_projVersionPresqueF
+inal/.angular/prerend
+er-root/c2b960cf-cc95
+-479e-b9c2-77d4e07711
+fe/chunk-J5ILNMES.mjs
+:4:18354)
+    at Ao._next (file
+:///C:/Users/msi-cybo
+rg/.gemini/antigravit
+y/scratch/angular_pro
+jVersionPresqueFinal/
+.angular/prerender-ro
+ot/c2b960cf-cc95-479e
+-b9c2-77d4e07711fe/ch
+unk-J5ILNMES.mjs:4:54
+09)
+    at Ao.next (file:
+///C:/Users/msi-cybor
+g/.gemini/antigravity
+/scratch/angular_proj
+VersionPresqueFinal/.
+angular/prerender-roo
+t/c2b960cf-cc95-479e-
+b9c2-77d4e07711fe/chu
+nk-J5ILNMES.mjs:4:251
+1)
+    at file:///C:/Use
+rs/msi-cyborg/.gemini
+/antigravity/scratch/
+angular_projVersionPr
+esqueFinal/.angular/p
+rerender-root/c2b960c
+f-cc95-479e-b9c2-77d4
+e07711fe/chunk-J5ILNM
+ES.mjs:4:12657
+Error loading 
+children y [Error]
+    at r.send (file:/
+//C:/Users/msi-cyborg
+/.gemini/antigravity/
+scratch/angular_projV
+ersionPresqueFinal/.a
+ngular/prerender-root
+/623cf88a-a8d3-4ae3-8
+e6d-5eb564f430c5/chun
+k-QZP2S7SI.mjs:2:2837
+)
+    at e._subscribe (
+file:///C:/Users/msi-
+cyborg/.gemini/antigr
+avity/scratch/angular
+_projVersionPresqueFi
+nal/.angular/prerende
+r-root/623cf88a-a8d3-
+4ae3-8e6d-5eb564f430c
+5/chunk-J5ILNMES.mjs:
+35:16357)
+    at 
+e._trySubscribe (file
+:///C:/Users/msi-cybo
+rg/.gemini/antigravit
+y/scratch/angular_pro
+jVersionPresqueFinal/
+.angular/prerender-ro
+ot/623cf88a-a8d3-4ae3
+-8e6d-5eb564f430c5/ch
+unk-J5ILNMES.mjs:4:43
+99)
+    at file:///C:/Use
+rs/msi-cyborg/.gemini
+/antigravity/scratch/
+angular_projVersionPr
+esqueFinal/.angular/p
+rerender-root/623cf88
+a-a8d3-4ae3-8e6d-5eb5
+64f430c5/chunk-J5ILNM
+ES.mjs:4:4344
+    at bt (file:///C:
+/Users/msi-cyborg/.ge
+mini/antigravity/scra
+tch/angular_projVersi
+onPresqueFinal/.angul
+ar/prerender-root/623
+cf88a-a8d3-4ae3-8e6d-
+5eb564f430c5/chunk-J5
+ILNMES.mjs:4:2204)
+    at e.subscribe (f
+ile:///C:/Users/msi-c
+yborg/.gemini/antigra
+vity/scratch/angular_
+projVersionPresqueFin
+al/.angular/prerender
+-root/623cf88a-a8d3-4
+ae3-8e6d-5eb564f430c5
+/chunk-J5ILNMES.mjs:4
+:4260)
+    at n.subscribe.s 
+(file:///C:/Users/msi
+-cyborg/.gemini/antig
+ravity/scratch/angula
+r_projVersionPresqueF
+inal/.angular/prerend
+er-root/623cf88a-a8d3
+-4ae3-8e6d-5eb564f430
+c5/chunk-J5ILNMES.mjs
+:4:18354)
+    at Ao._next (file
+:///C:/Users/msi-cybo
+rg/.gemini/antigravit
+y/scratch/angular_pro
+jVersionPresqueFinal/
+.angular/prerender-ro
+ot/623cf88a-a8d3-4ae3
+-8e6d-5eb564f430c5/ch
+unk-J5ILNMES.mjs:4:54
+09)
+    at Ao.next (file:
+///C:/Users/msi-cybor
+g/.gemini/antigravity
+/scratch/angular_proj
+VersionPresqueFinal/.
+angular/prerender-roo
+t/623cf88a-a8d3-4ae3-
+8e6d-5eb564f430c5/chu
+nk-J5ILNMES.mjs:4:251
+1)
+    at file:///C:/Use
+rs/msi-cyborg/.gemini
+/antigravity/scratch/
+angular_projVersionPr
+esqueFinal/.angular/p
+rerender-root/623cf88
+a-a8d3-4ae3-8e6d-5eb5
+64f430c5/chunk-J5ILNM
+ES.mjs:4:12657
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Changement de profils d+Ætect+Æ: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+Request URL: /api/php/account.php
+Token exists: false
+ERROR y [Error]
+    at r.send (file:/
+//C:/Users/msi-cyborg
+/.gemini/antigravity/
+scratch/angular_projV
+ersionPresqueFinal/.a
+ngular/prerender-root
+/623cf88a-a8d3-4ae3-8
+e6d-5eb564f430c5/chun
+k-QZP2S7SI.mjs:2:2837
+)
+    at e._subscribe (
+file:///C:/Users/msi-
+cyborg/.gemini/antigr
+avity/scratch/angular
+_projVersionPresqueFi
+nal/.angular/prerende
+r-root/623cf88a-a8d3-
+4ae3-8e6d-5eb564f430c
+5/chunk-J5ILNMES.mjs:
+35:16357)
+    at 
+e._trySubscribe (file
+:///C:/Users/msi-cybo
+rg/.gemini/antigravit
+y/scratch/angular_pro
+jVersionPresqueFinal/
+.angular/prerender-ro
+ot/623cf88a-a8d3-4ae3
+-8e6d-5eb564f430c5/ch
+unk-J5ILNMES.mjs:4:43
+99)
+    at file:///C:/Use
+rs/msi-cyborg/.gemini
+/antigravity/scratch/
+angular_projVersionPr
+esqueFinal/.angular/p
+rerender-root/623cf88
+a-a8d3-4ae3-8e6d-5eb5
+64f430c5/chunk-J5ILNM
+ES.mjs:4:4344
+    at bt (file:///C:
+/Users/msi-cyborg/.ge
+mini/antigravity/scra
+tch/angular_projVersi
+onPresqueFinal/.angul
+ar/prerender-root/623
+cf88a-a8d3-4ae3-8e6d-
+5eb564f430c5/chunk-J5
+ILNMES.mjs:4:2204)
+    at e.subscribe (f
+ile:///C:/Users/msi-c
+yborg/.gemini/antigra
+vity/scratch/angular_
+projVersionPresqueFin
+al/.angular/prerender
+-root/623cf88a-a8d3-4
+ae3-8e6d-5eb564f430c5
+/chunk-J5ILNMES.mjs:4
+:4260)
+    at n.subscribe.s 
+(file:///C:/Users/msi
+-cyborg/.gemini/antig
+ravity/scratch/angula
+r_projVersionPresqueF
+inal/.angular/prerend
+er-root/623cf88a-a8d3
+-4ae3-8e6d-5eb564f430
+c5/chunk-J5ILNMES.mjs
+:4:18354)
+    at Ao._next (file
+:///C:/Users/msi-cybo
+rg/.gemini/antigravit
+y/scratch/angular_pro
+jVersionPresqueFinal/
+.angular/prerender-ro
+ot/623cf88a-a8d3-4ae3
+-8e6d-5eb564f430c5/ch
+unk-J5ILNMES.mjs:4:54
+09)
+    at Ao.next (file:
+///C:/Users/msi-cybor
+g/.gemini/antigravity
+/scratch/angular_proj
+VersionPresqueFinal/.
+angular/prerender-roo
+t/623cf88a-a8d3-4ae3-
+8e6d-5eb564f430c5/chu
+nk-J5ILNMES.mjs:4:251
+1)
+    at file:///C:/Use
+rs/msi-cyborg/.gemini
+/antigravity/scratch/
+angular_projVersionPr
+esqueFinal/.angular/p
+rerender-root/623cf88
+a-a8d3-4ae3-8e6d-5eb5
+64f430c5/chunk-J5ILNM
+ES.mjs:4:12657
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+Request URL: /api/php/tips.php
+Token exists: false
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AiChatService: Documents mis +· jour: 0
+AiChatService: Syst+øme Prompt mis +· jour avec le contexte: Tu es un assistant parental virtuel sp+Æcialis+Æ en +ÎDUCATION et NUTRITION, destin+Æ aux parents en Tunisie.
+Ton objectif est d'aider les parents avec des conseils pratiques, bienveillants et personnalis+Æs, en tenant compte du contexte tunisien.
+
+DOMAINES AUTORIS+ÎS :
+1. +ÎDUCATION :
+   - Suivi scolaire via la plateforme **Rafi9ni** : notes, exercices, documents p+Ædagogiques, devoirs et activit+Æs +Æducatives.
+   - Suivi de l'apprentissage et du comportement de l'enfant via **9isati**.
+2. NUTRITION :
+   - Recettes et conseils adapt+Æs aux enfants en Tunisie.
+   - **R+ÎF+ÎRENCE PRODUITS** : Utilise les produits de la marque **D+Ælice** (lait, yaourts, produits laitiers, jus) comme r+Æf+Ærence principale pour tes conseils nutritionnels et tes id+Æes de go++ters ou repas.
+
+R+ÍGLES CRITIQUES :
+1. ANALYSE INITIALE : Si des donn+Æes d'analyse (JSON) sont disponibles, commence par r+Æsumer les points forts et faibles.
+2. DOCUMENTS : Tu ne peux proposer QUE les documents list+Æs dans "RESSOURCES P+ÎDAGOGIQUES R+ÎELLES". 
+3. INTERDICTION : Ne jamais inventer de titres de documents. Si la liste est vide ou si aucun document ne correspond +· la mati+øre demand+Æe, dis explicitement que tu n'en as pas pour le moment.
+4. +ÎVEIL SCIENTIFIQUE : Note que ce domaine couvre la science, la physique, la chimie et la biologie.
+5. LANGUE : Tu peux comprendre et r+Æpondre en **fran+∫ais** ou en **arabe** (arabe litt+Æraire ou derja tunisienne), selon la pr+Æf+Ærence du parent. Garde toujours un ton clair et bienveillant.
+
+R+Æponds de mani+øre concise, bienveillante et guide toujours le parent.
+AppComponent: Initialized.
+Error loading tips y 
+[Error]
+    at r.send (file:/
+//C:/Users/msi-cyborg
+/.gemini/antigravity/
+scratch/angular_projV
+ersionPresqueFinal/.a
+ngular/prerender-root
+/52c9e26a-af69-4b1b-8
+0ba-bc9f74590655/chun
+k-QZP2S7SI.mjs:2:2837
+)
+    at e._subscribe (
+file:///C:/Users/msi-
+cyborg/.gemini/antigr
+avity/scratch/angular
+_projVersionPresqueFi
+nal/.angular/prerende
+r-root/52c9e26a-af69-
+4b1b-80ba-bc9f7459065
+5/chunk-J5ILNMES.mjs:
+35:16357)
+    at 
+e._trySubscribe (file
+:///C:/Users/msi-cybo
+rg/.gemini/antigravit
+y/scratch/angular_pro
+jVersionPresqueFinal/
+.angular/prerender-ro
+ot/52c9e26a-af69-4b1b
+-80ba-bc9f74590655/ch
+unk-J5ILNMES.mjs:4:43
+99)
+    at file:///C:/Use
+rs/msi-cyborg/.gemini
+/antigravity/scratch/
+angular_projVersionPr
+esqueFinal/.angular/p
+rerender-root/52c9e26
+a-af69-4b1b-80ba-bc9f
+74590655/chunk-J5ILNM
+ES.mjs:4:4344
+    at bt (file:///C:
+/Users/msi-cyborg/.ge
+mini/antigravity/scra
+tch/angular_projVersi
+onPresqueFinal/.angul
+ar/prerender-root/52c
+9e26a-af69-4b1b-80ba-
+bc9f74590655/chunk-J5
+ILNMES.mjs:4:2204)
+    at e.subscribe (f
+ile:///C:/Users/msi-c
+yborg/.gemini/antigra
+vity/scratch/angular_
+projVersionPresqueFin
+al/.angular/prerender
+-root/52c9e26a-af69-4
+b1b-80ba-bc9f74590655
+/chunk-J5ILNMES.mjs:4
+:4260)
+    at n.subscribe.s 
+(file:///C:/Users/msi
+-cyborg/.gemini/antig
+ravity/scratch/angula
+r_projVersionPresqueF
+inal/.angular/prerend
+er-root/52c9e26a-af69
+-4b1b-80ba-bc9f745906
+55/chunk-J5ILNMES.mjs
+:4:18354)
+    at Ao._next (file
+:///C:/Users/msi-cybo
+rg/.gemini/antigravit
+y/scratch/angular_pro
+jVersionPresqueFinal/
+.angular/prerender-ro
+ot/52c9e26a-af69-4b1b
+-80ba-bc9f74590655/ch
+unk-J5ILNMES.mjs:4:54
+09)
+    at Ao.next (file:
+///C:/Users/msi-cybor
+g/.gemini/antigravity
+/scratch/angular_proj
+VersionPresqueFinal/.
+angular/prerender-roo
+t/52c9e26a-af69-4b1b-
+80ba-bc9f74590655/chu
+nk-J5ILNMES.mjs:4:251
+1)
+    at file:///C:/Use
+rs/msi-cyborg/.gemini
+/antigravity/scratch/
+angular_projVersionPr
+esqueFinal/.angular/p
+rerender-root/52c9e26
+a-af69-4b1b-80ba-bc9f
+74590655/chunk-J5ILNM
+ES.mjs:4:12657
+Browser bundles        
+Initial chunk files     | Names                     |  Raw size | Estimated transfer size
+chunk-BVIQAJUB.js       | -                         | 202.24 kB |                54.36 kB
+main-FBWB5BXW.js        | main                      | 178.33 kB |                41.19 kB
+polyfills-FFHMD2TL.js   | polyfills                 |  33.71 kB |                11.02 kB
+styles-K3FNTVD3.css     | styles                    |  13.81 kB |                 3.18 kB
+
+                        | Initial total             | 428.09 kB |               109.75 kB
+
+Lazy chunk files        | Names                     |  Raw size | Estimated transfer size
+chunk-O6LXB6B4.js       | admin-dashboard-component |  14.33 kB |                 3.61 kB
+
+
+Server bundles         
+Initial chunk files     | Names                     |  Raw size
+server.mjs              | server                    |   1.06 MB |                        
+chunk-VQDAUG6W.mjs      | -                         | 378.34 kB |                        
+polyfills.server.mjs    | polyfills.server          | 262.30 kB |                        
+chunk-J5ILNMES.mjs      | -                         | 181.76 kB |                        
+chunk-2RF4PMV4.mjs      | -                         | 100.11 kB |                        
+chunk-DJYLM7YV.mjs      | -                         |  36.68 kB |                        
+chunk-VVCT4QZE.mjs      | -                         |   2.48 kB |                        
+render-utils.server.mjs | render-utils.server       |   1.46 kB |                        
+main.server.mjs         | main.server               | 207 bytes |                        
+
+Lazy chunk files        | Names                     |  Raw size
+chunk-WZEXYNFM.mjs      | admin-dashboard-component |  14.42 kB |                        
+chunk-QZP2S7SI.mjs      | xhr2                      |  11.79 kB |                        
+
+Prerendered 11 static routes.
+Application bundle generation failed. [35.569 seconds]
+
+‘˚¶ [WARNING] src/app
+/components/admin/use
+r-management/user-man
+agement.component.css
+ exceeded maximum 
+budget. Budget 2.00 
+kB was not met by 
+856 bytes with a 
+total of 2.84 kB.
+
+
+‘˚¶ [WARNING] src/app
+/components/conseils/
+conseils.component.cs
+s exceeded maximum 
+budget. Budget 2.00 
+kB was not met by 
+1.00 kB with a total 
+of 3.00 kB.
+
+
+‘˚¶ [WARNING] css-inl
+ine-fonts:https://fon
+ts.googleapis.com/css
+2?family=Outfit:wght@
+300;400;600;700&displ
+ay=swap exceeded 
+maximum budget. 
+Budget 2.00 kB was 
+not met by 5.08 kB 
+with a total of 7.08 
+kB.
+
+
+X [ERROR] css-inline-
+fonts:https://fonts.g
+oogleapis.com/css2?fa
+mily=Outfit:wght@300;
+400;600;700&display=s
+wap exceeded maximum 
+budget. Budget 4.00 
+kB was not met by 
+3.08 kB with a total 
+of 7.08 kB.
+
+

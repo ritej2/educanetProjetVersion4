@@ -36,9 +36,9 @@ export interface SearchResponse {
 })
 export class HomeworkService {
 
-  // Bibliothèque personnelle (BehaviorSubject)
   private recommendedDocumentsSubject = new BehaviorSubject<Homework[]>([]);
   public recommendedDocuments$ = this.recommendedDocumentsSubject.asObservable();
+  private deletedDocumentIds: Set<number> = new Set();
   private currentUserId: number | null = null;
 
   private subjectKeywords: { [key: string]: string[] } = {
@@ -51,6 +51,10 @@ export class HomeworkService {
 
   private getStorageKey(userId: number): string {
     return `user_library_${userId}`;
+  }
+
+  private getBlacklistKey(userId: number): string {
+    return `user_library_blacklist_${userId}`;
   }
 
   // Normalisation des chaînes pour comparaison robuste
@@ -67,6 +71,8 @@ export class HomeworkService {
    */
   loadLibrary(userId: number): void {
     this.currentUserId = userId;
+
+    // Load documents
     const saved = localStorage.getItem(this.getStorageKey(userId));
     if (saved) {
       try {
@@ -78,6 +84,20 @@ export class HomeworkService {
     } else {
       this.recommendedDocumentsSubject.next([]);
     }
+
+    // Load blacklist
+    const savedBlacklist = localStorage.getItem(this.getBlacklistKey(userId));
+    if (savedBlacklist) {
+      try {
+        const ids = JSON.parse(savedBlacklist);
+        this.deletedDocumentIds = new Set(ids.map((id: any) => Number(id)));
+      } catch (e) {
+        console.error('Erreur chargement blacklist', e);
+        this.deletedDocumentIds = new Set();
+      }
+    } else {
+      this.deletedDocumentIds = new Set();
+    }
   }
 
   /**
@@ -86,6 +106,7 @@ export class HomeworkService {
   clearLibrary(): void {
     this.currentUserId = null;
     this.recommendedDocumentsSubject.next([]);
+    this.deletedDocumentIds = new Set();
   }
 
   // Mapping niveau scolaire → levelId API (Standard Rafi9ni)
@@ -106,6 +127,16 @@ export class HomeworkService {
 
   // Suppression d'un document spécifique d'un enfant
   removeDocument(id: number, childName: string): void {
+    // 1. Add to blacklist to prevent re-adding
+    this.deletedDocumentIds.add(Number(id));
+    if (this.currentUserId) {
+      localStorage.setItem(
+        this.getBlacklistKey(this.currentUserId),
+        JSON.stringify(Array.from(this.deletedDocumentIds))
+      );
+    }
+
+    // 2. Remove from current list
     const current = this.recommendedDocumentsSubject.value;
     const updated = current.filter(d => !(d.id === id && d.childName === childName));
     this.setDocuments(updated);
@@ -128,8 +159,11 @@ export class HomeworkService {
       docs.findIndex(od => od.id === d.id) === index
     );
 
-    // 2. Filtrer par rapport à l'existant
+    // 2. Filtrer par rapport à l'existant ET à la blacklist
     const newDocs = uniqueInput.filter(d => {
+      // Vérifier la blacklist d'abord (en s'assurant que l'ID est un nombre)
+      if (this.deletedDocumentIds.has(Number(d.id))) return false;
+
       const isDuplicate = current.some(c => {
         const sameChild = c.childName === d.childName;
         const sameId = c.id === d.id;

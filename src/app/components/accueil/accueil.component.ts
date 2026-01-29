@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { ChildService } from '../../services/child.service';
-import { EventService, CalendarEvent } from '../../services/event.service';
-import { forkJoin } from 'rxjs';
 
 @Component({
     selector: 'app-accueil',
@@ -19,27 +17,15 @@ import { forkJoin } from 'rxjs';
 export class AccueilComponent implements OnInit {
     loading = true;
     childrenCount = 0;
-    nextEvent: CalendarEvent | null = null;
 
     constructor(
-        private childService: ChildService,
-        private eventService: EventService
+        private childService: ChildService
     ) { }
 
     ngOnInit(): void {
-        forkJoin({
-            children: this.childService.getChildren(),
-            events: this.eventService.getEvents()
-        }).subscribe({
-            next: (data) => {
-                this.childrenCount = data.children.length;
-
-                // Logic to find next event
-                const now = new Date();
-                const upcoming = data.events.filter(e => new Date(e.date) >= now);
-                upcoming.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-                this.nextEvent = upcoming.length > 0 ? upcoming[0] : null;
-
+        this.childService.getChildren().subscribe({
+            next: (children) => {
+                this.childrenCount = children.length;
                 this.loading = false;
             },
             error: (err) => {

@@ -19,53 +19,53 @@
     <ul class="nav-links">
 
         <li class="nav-item" *ngIf="!isAdmin()">
-            <a routerLink="/questionnaire" routerLinkActive="active" class="btn-soft-purple">
-                <i class="fa fa-clipboard-list"></i> Questionnaire
-            </a>
-        </li>
-
-        <li class="nav-item" *ngIf="!isAdmin()">
-            <a routerLink="/ajouter-enfant" routerLinkActive="active" class="btn-soft-pink">
-                <i class="fa fa-plus-circle"></i> Ajouter un enfant
-            </a>
-        </li>
-
-        <li class="nav-item" *ngIf="!isAdmin()">
-            <a routerLink="/gerer-compte" routerLinkActive="active" class="btn-soft-blue">
-                <i class="fa fa-user-cog"></i> Gérer mon compte
-            </a>
-        </li>
-
-        <li class="nav-item" *ngIf="!isAdmin()">
-            <a routerLink="/bibliotheque" routerLinkActive="active" class="btn-soft-chestnut">
-                <i class="fa fa-book"></i> Bibliothèque
-            </a>
-        </li>
-
-        <li class="nav-item" *ngIf="!isAdmin()">
-            <a routerLink="/accueil" routerLinkActive="active">
+            <a routerLink="/accueil" routerLinkActive="active" class="soft-pink">
                 <i class="fa fa-home"></i> Accueil
             </a>
         </li>
 
         <li class="nav-item" *ngIf="!isAdmin()">
-            <a routerLink="/mes-enfants" routerLinkActive="active">
+            <a routerLink="/questionnaire" routerLinkActive="active" class="soft-lavender">
+                <i class="fa fa-clipboard-list"></i> Questionnaire
+            </a>
+        </li>
+
+        <li class="nav-item" *ngIf="!isAdmin()">
+            <a routerLink="/bibliotheque" routerLinkActive="active" class="soft-sky">
+                <i class="fa fa-book"></i> Bibliothèque
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a routerLink="/conseils" routerLinkActive="active" class="soft-mint">
+                <i class="fa fa-lightbulb"></i> Conseils & Astuces
+            </a>
+        </li>
+
+        <li class="nav-item" *ngIf="!isAdmin()">
+            <a routerLink="/mes-enfants" routerLinkActive="active" class="soft-pink">
                 <i class="fa fa-child"></i> Mes Enfants
             </a>
         </li>
 
         <li class="nav-item" *ngIf="!isAdmin()">
-            <a routerLink="/calendrier" routerLinkActive="active">
-                <i class="fa fa-calendar"></i> Calendrier
+            <a routerLink="/ajouter-enfant" routerLinkActive="active" class="soft-peach">
+                <i class="fa fa-plus-circle"></i> Ajouter un enfant
             </a>
         </li>
 
-        <li class="nav-item">
-            <a routerLink="/conseils" routerLinkActive="active">
-                <i class="fa fa-lightbulb"></i> Conseils & Astuces
+        <li class="nav-item" *ngIf="!isAdmin()">
+            <a routerLink="/chat" routerLinkActive="active" class="soft-lavender">
+                <i class="fa fa-robot"></i>
+                <span class="link-text">Assistant AI</span>
             </a>
         </li>
 
+        <li class="nav-item" *ngIf="!isAdmin()">
+            <a routerLink="/gerer-compte" routerLinkActive="active" class="soft-sky">
+                <i class="fa fa-user-cog"></i> Gérer mon compte
+            </a>
+        </li>
 
         <ng-container *ngIf="isAdmin()">
             <li class="nav-item">
@@ -75,13 +75,6 @@
                 </a>
             </li>
         </ng-container>
-
-        <li class="nav-item" *ngIf="!isAdmin()">
-            <a routerLink="/chat" routerLinkActive="active">
-                <i class="fa fa-robot"></i>
-                <span class="link-text">Assistant AI</span>
-            </a>
-        </li>
     </ul>
 </div>
 

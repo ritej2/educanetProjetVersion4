@@ -1,7 +1,7 @@
 /**
  * PURPOSE: Interactive calendar for managing family schedules.
  * CONTENT: Allows viewing, adding, and deleting family events.
- */
+ 
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -158,3 +158,4 @@ export class CalendrierComponent implements OnInit {
         }
     }
 }
+*/

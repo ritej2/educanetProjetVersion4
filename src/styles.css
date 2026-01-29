@@ -822,67 +822,74 @@ body {
     }
 }
 
-/* Special Soft Buttons */
-.btn-soft-pink {
-    background: linear-gradient(90deg, #FDEbf7 0%, #F3E5F5 100%);
-    color: var(--primary-purple) !important;
-    border: 1px solid rgba(233, 75, 138, 0.1);
-    box-shadow: 0 4px 10px rgba(233, 75, 138, 0.1);
+/* Pastel Dream Palette (Milky & Wonderful) */
+.soft-pink {
+    background: #FFF0F5;
+    /* LavenderBlush - The "soft soft soft pink" */
+    color: #C2185B !important;
+    border: 1px solid rgba(194, 24, 91, 0.1);
 }
 
-.btn-soft-pink:hover {
-    background: linear-gradient(90deg, #FCE4EC 0%, #E1BEE7 100%);
-    box-shadow: 0 6px 15px rgba(233, 75, 138, 0.2);
-    transform: translateY(-2px);
+.soft-pink:hover {
+    background: #FFD1DC;
+    transform: translateX(5px);
 }
 
-.btn-soft-blue {
-    background: linear-gradient(90deg, #E0F7FA 0%, #E3F2FD 100%);
-    color: #4A90E2 !important;
-    border: 1px solid rgba(74, 144, 226, 0.1);
-    box-shadow: 0 4px 10px rgba(74, 144, 226, 0.1);
+.soft-lavender {
+    background: #F3E5F5;
+    color: #7B1FA2 !important;
+    border: 1px solid rgba(123, 31, 162, 0.1);
 }
 
-.btn-soft-blue:hover {
-    background: linear-gradient(90deg, #B2EBF2 0%, #BBDEFB 100%);
-    box-shadow: 0 6px 15px rgba(74, 144, 226, 0.2);
-    transform: translateY(-2px);
+.soft-lavender:hover {
+    background: #E1BEE7;
+    transform: translateX(5px);
 }
 
-.btn-soft-green {
-    background: linear-gradient(90deg, #E8F5E9 0%, #C8E6C9 100%);
+.soft-sky {
+    background: #E1F5FE;
+    color: #0277BD !important;
+    border: 1px solid rgba(2, 119, 189, 0.1);
+}
+
+.soft-sky:hover {
+    background: #B3E5FC;
+    transform: translateX(5px);
+}
+
+.soft-mint {
+    background: #E8F5E9;
     color: #2E7D32 !important;
-    border: 1px solid rgba(76, 175, 80, 0.1);
-    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.1);
+    border: 1px solid rgba(46, 125, 50, 0.1);
 }
 
-.btn-soft-green:hover {
-    background: linear-gradient(90deg, #C8E6C9 0%, #A5D6A7 100%);
-    box-shadow: 0 6px 15px rgba(76, 175, 80, 0.2);
-    transform: translateY(-2px);
+.soft-mint:hover {
+    background: #C8E6C9;
+    transform: translateX(5px);
 }
 
-.btn-soft-chestnut {
-    background: linear-gradient(90deg, #EFEBE9 0%, #D7CCC8 100%);
-    color: #5D4037 !important;
-    border: 1px solid rgba(121, 85, 72, 0.1);
-    box-shadow: 0 4px 10px rgba(121, 85, 72, 0.1);
+.soft-peach {
+    background: #FFF3E0;
+    color: #E65100 !important;
+    border: 1px solid rgba(230, 81, 0, 0.1);
 }
 
-.btn-soft-chestnut:hover {
-    background: linear-gradient(90deg, #D7CCC8 0%, #BCAAA4 100%);
-    box-shadow: 0 6px 15px rgba(121, 85, 72, 0.2);
-    transform: translateY(-2px);
+.soft-peach:hover {
+    background: #FFE0B2;
+    transform: translateX(5px);
 }
 
-.sidebar .btn-soft-pink,
-.sidebar .btn-soft-blue,
-.sidebar .btn-soft-green,
-.sidebar .btn-soft-chestnut {
-    border-radius: 50px;
+.sidebar .soft-pink,
+.sidebar .soft-lavender,
+.sidebar .soft-sky,
+.sidebar .soft-mint,
+.sidebar .soft-peach {
+    border-radius: 12px;
     justify-content: flex-start;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
 }
 
 

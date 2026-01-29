@@ -8,12 +8,21 @@
         },
         "logLevel": "debug"
     },
+    "/api/rag": {
+        "target": "http://127.0.0.1",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api/rag": "/backend1/rag"
+        },
+        "logLevel": "debug"
+    },
     "/api/php": {
         "target": "http://127.0.0.1",
         "secure": false,
         "changeOrigin": true,
         "pathRewrite": {
-            "^/api/php": "/backend/php"
+            "^/api/php": "/backend1/php"
         },
         "logLevel": "debug"
     },

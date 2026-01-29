@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { HomeworkService, Homework, HomeworkFile } from '../../services/homework.service';
 import { Observable } from 'rxjs';
 import { Router } from '@angular/router';
@@ -7,28 +8,67 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-bibliotheque',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   template: `
     <div class="bibliotheque-container">
       <div class="header-section">
         <h1 class="main-title">Ma Bibliothèque Éducative</h1>
         <p class="subtitle">Retrouvez tous les documents recommandés pour le parcours de votre enfant.</p>
+        
+        <!-- Search Bar -->
+        <div class="search-container">
+          <i class="fa fa-search search-icon"></i>
+          <input 
+            type="text" 
+            class="search-input" 
+            placeholder="Rechercher par nom d'enfant..."
+            [(ngModel)]="searchQuery">
+          <button class="clear-btn" *ngIf="searchQuery" (click)="searchQuery = ''">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>
+
+        <!-- Subject Filter Buttons -->
+        <div class="filter-section">
+          <button 
+            class="filter-btn"
+            [class.active]="!selectedSubject"
+            (click)="clearFilters()">
+            <i class="fa fa-th"></i>
+            <span>Tous</span>
+          </button>
+          <button 
+            *ngFor="let subject of subjects"
+            class="filter-btn"
+            [class.active]="selectedSubject === subject.id"
+            [style.--subject-color]="subject.color"
+            (click)="filterBySubject(subject.id)">
+            <i class="fa" [ngClass]="subject.icon"></i>
+            <span>{{ subject.label }}</span>
+            <span class="count-badge" *ngIf="(documents$ | async) as docs">
+              {{ getSubjectCount(docs, subject.id) }}
+            </span>
+          </button>
+        </div>
       </div>
 
       <div *ngIf="(documents$ | async) as docs" class="content-area">
         <!-- Empty State -->
-        <div class="empty-state" *ngIf="docs.length === 0">
+        <div class="empty-state" *ngIf="getFilteredDocuments(docs).length === 0">
           <div class="icon-circle">
             <i class="fa fa-book-bookmark"></i>
           </div>
-          <h2>Votre bibliothèque est vide</h2>
-          <p>Dès que vous aurez rempli le questionnaire, nous sélectionnerons les meilleures ressources pour votre enfant.</p>
-          <button class="btn-action" (click)="goToQuestionnaire()">Saisir le questionnaire</button>
+          <h2>{{ docs.length === 0 ? 'Votre bibliothèque est vide' : 'Aucun document trouvé' }}</h2>
+          <p *ngIf="docs.length === 0">Dès que vous aurez rempli le questionnaire, nous sélectionnerons les meilleures ressources pour votre enfant.</p>
+          <p *ngIf="docs.length > 0">Essayez de modifier vos filtres de recherche.</p>
+          <button class="btn-action" (click)="docs.length === 0 ? goToQuestionnaire() : clearFilters()">
+            {{ docs.length === 0 ? 'Saisir le questionnaire' : 'Réinitialiser les filtres' }}
+          </button>
         </div>
 
         <!-- Grouped Documents -->
-        <div class="child-sections" *ngIf="docs.length > 0">
-          <div class="child-section" *ngFor="let group of getGroupedDocuments(docs)">
+        <div class="child-sections" *ngIf="getFilteredDocuments(docs).length > 0">
+          <div class="child-section" *ngFor="let group of getGroupedDocuments(getFilteredDocuments(docs))">
             <div class="child-header">
               <div class="child-avatar">
                 <i class="fa fa-child"></i>
@@ -117,6 +157,126 @@ import { Router } from '@angular/router';
     .subtitle {
       color: #64748b;
       font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    /* Search Bar */
+    .search-container {
+      max-width: 600px;
+      margin: 0 auto 25px;
+      position: relative;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #94a3b8;
+      font-size: 1rem;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 14px 50px 14px 50px;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 12px;
+      font-size: 1rem;
+      background: white;
+      transition: all 0.2s;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: #b8c5d6;
+      box-shadow: 0 0 0 3px rgba(184, 197, 214, 0.12);
+    }
+
+    .clear-btn {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #f1f5f9;
+      border: none;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      color: #64748b;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+
+    .clear-btn:hover {
+      background: #e2e8f0;
+      color: #475569;
+    }
+
+    /* Filter Buttons */
+    .filter-section {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .filter-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border: 1.5px solid #e8ecf1;
+      background: white;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #4a5568;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'Outfit', sans-serif;
+      position: relative;
+    }
+
+    .filter-btn i {
+      font-size: 1rem;
+      color: #94a3b8;
+    }
+
+    .filter-btn:hover {
+      border-color: var(--subject-color, #b8c5d6);
+      background: rgba(184, 197, 214, 0.05);
+    }
+
+    .filter-btn.active {
+      border-color: var(--subject-color, #b8c5d6);
+      background: var(--subject-color, #b8c5d6);
+      color: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .filter-btn.active i {
+      color: white;
+    }
+
+    .count-badge {
+      background: rgba(255,255,255,0.9);
+      color: var(--subject-color, #6b7c93);
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-left: 4px;
+    }
+
+    .filter-btn.active .count-badge {
+      background: rgba(255,255,255,0.3);
+      color: white;
     }
 
     /* Sections Style */
@@ -399,6 +559,19 @@ import { Router } from '@angular/router';
 export class BibliothequeComponent implements OnInit {
   documents$: Observable<Homework[]>;
 
+  // Filter state
+  selectedSubject: string | null = null;
+  searchQuery: string = '';
+
+  // Subject list for filtering - matching HomeworkService keywords
+  subjects = [
+    { id: 'mathematiques', label: 'Mathématiques', icon: 'fa-calculator', color: '#8fa8c4', keywords: ['math', 'رياضيات', 'mathematiques'] },
+    { id: 'eveil scientifique', label: 'Sciences', icon: 'fa-flask', color: '#a8c5a8', keywords: ['science', 'عوم', 'ايقاظ', 'physique', 'chimie', 'eveil', 'scientifique'] },
+    { id: 'francais', label: 'Français', icon: 'fa-book', color: '#d4a5b8', keywords: ['francais', 'فرنسية', 'french', 'français', 'lecture', 'production'] },
+    { id: 'anglais', label: 'Anglais', icon: 'fa-language', color: '#b8c5d6', keywords: ['anglais', 'انقلزية', 'english', 'انجليزية'] },
+    { id: 'arabe', label: 'Arabe', icon: 'fa-pen-nib', color: '#c5b8a8', keywords: ['arabe', 'عربية', 'arabic'] }
+  ];
+
   constructor(private homeworkService: HomeworkService, private router: Router) {
     this.documents$ = this.homeworkService.recommendedDocuments$;
   }
@@ -413,6 +586,65 @@ export class BibliothequeComponent implements OnInit {
     if (confirm('Voulez-vous vraiment supprimer ce document ?')) {
       this.homeworkService.removeDocument(id, childName || 'Enfant');
     }
+  }
+
+  // Filter methods
+  filterBySubject(subjectId: string): void {
+    this.selectedSubject = this.selectedSubject === subjectId ? null : subjectId;
+  }
+
+  clearFilters(): void {
+    this.selectedSubject = null;
+    this.searchQuery = '';
+  }
+
+  getFilteredDocuments(docs: Homework[]): Homework[] {
+    let filtered = docs;
+
+    // Apply subject filter
+    if (this.selectedSubject) {
+      const selectedSubjectData = this.subjects.find(s => s.id === this.selectedSubject);
+      if (selectedSubjectData) {
+        filtered = filtered.filter(doc => {
+          const subject = (doc.subject || '').toLowerCase();
+          const targetSubjects = (doc.targetSubjects || []).map(s => s.toLowerCase());
+
+          // Check if any keyword matches
+          return selectedSubjectData.keywords.some(keyword => {
+            const lowerKeyword = keyword.toLowerCase();
+            return subject.includes(lowerKeyword) ||
+              targetSubjects.some(ts => ts.includes(lowerKeyword));
+          });
+        });
+      }
+    }
+
+    // Apply search filter
+    if (this.searchQuery.trim()) {
+      const query = this.searchQuery.toLowerCase();
+      filtered = filtered.filter(doc =>
+        (doc.childName || '').toLowerCase().includes(query)
+      );
+    }
+
+    return filtered;
+  }
+
+  getSubjectCount(docs: Homework[], subjectId: string): number {
+    const subjectData = this.subjects.find(s => s.id === subjectId);
+    if (!subjectData) return 0;
+
+    return docs.filter(doc => {
+      const subject = (doc.subject || '').toLowerCase();
+      const targetSubjects = (doc.targetSubjects || []).map(s => s.toLowerCase());
+
+      // Check if any keyword matches
+      return subjectData.keywords.some(keyword => {
+        const lowerKeyword = keyword.toLowerCase();
+        return subject.includes(lowerKeyword) ||
+          targetSubjects.some(ts => ts.includes(lowerKeyword));
+      });
+    }).length;
   }
 
   // bibliotheque.component.ts

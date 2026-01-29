@@ -24,15 +24,14 @@
         <p>{{ childrenCount }} enfant(s) enregistré(s)</p>
     </div>
 
-    <!-- Card 2: Événements -->
-    <div class="card" routerLink="/calendrier">
-        <div class="card-icon" style="background: rgba(74, 144, 226, 0.1); color: var(--secondary-blue);">
-            <i class="fa fa-calendar-alt"></i>
+    <!-- Card 2: Bibliothèque -->
+    <div class="card" routerLink="/bibliotheque">
+        <div class="card-icon" style="background: rgba(160, 82, 45, 0.1); color: var(--accent-chestnut);">
+            <i class="fa fa-book"></i>
         </div>
-        <h3>Événements à venir</h3>
-        <p>Restez organisé avec vos rendez-vous et activités</p><br>
-        <p *ngIf="nextEvent">{{ nextEvent!.title }} - {{ nextEvent!.date | date:'dd MMM' }}</p>
-        <p *ngIf="!nextEvent">Aucun événement prévu</p>
+        <h3>Bibliothèque</h3>
+        <p>Accédez à vos documents et ressources éducatives</p><br>
+        <p>Consulter la bibliothèque</p>
     </div>
 
     <!-- Card 3: Paramètres -->

@@ -28,16 +28,29 @@ class Message
      */
     public function create($conversationId, $role, $content)
     {
-        $stmt = $this->db->prepare("
-            INSERT INTO chat_messages (conversation_id, role, content) 
-            VALUES (:conversation_id, :role, :content)
-        ");
-
-        $stmt->execute([
-            'conversation_id' => $conversationId,
-            'role' => $role,
-            'content' => $content
-        ]);
+        try {
+            // Try newest schema (role, content)
+            $stmt = $this->db->prepare("
+                INSERT INTO chat_messages (conversation_id, role, content) 
+                VALUES (:conversation_id, :role, :content)
+            ");
+            $stmt->execute([
+                'conversation_id' => $conversationId,
+                'role' => $role,
+                'content' => $content
+            ]);
+        } catch (PDOException $e) {
+            // Fallback to old schema (sender, message)
+            $stmt = $this->db->prepare("
+                INSERT INTO chat_messages (conversation_id, sender, message) 
+                VALUES (:conversation_id, :sender, :message)
+            ");
+            $stmt->execute([
+                'conversation_id' => $conversationId,
+                'sender' => $role,
+                'message' => $content
+            ]);
+        }
 
         $messageId = $this->db->lastInsertId();
         return $this->findById($messageId);

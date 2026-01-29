@@ -19,7 +19,7 @@ $conversationModel = new Conversation();
 
 switch ($_SERVER['REQUEST_METHOD']) {
     case 'GET':
-       
+
         $conversationId = $_GET['conversation_id'] ?? null;
 
         if (!$conversationId) {
@@ -38,20 +38,34 @@ switch ($_SERVER['REQUEST_METHOD']) {
     case 'POST':
         $input = json_decode(file_get_contents('php://input'), true);
 
-    
+
         if (empty($input['conversation_id']) || empty($input['role']) || empty($input['content'])) {
-            Response::error('Données manquantes');
+            $missing = [];
+            if (empty($input['conversation_id']))
+                $missing[] = 'conversation_id';
+            if (empty($input['role']))
+                $missing[] = 'role';
+            if (empty($input['content']))
+                $missing[] = 'content';
+            Response::error('Données manquantes : ' . implode(', ', $missing) . '. Input: ' . json_encode($input));
         }
+
+        // Map 'ai' to 'bot' for compatibility with some schema versions
+        $role = $input['role'];
+        if ($role === 'ai')
+            $role = 'bot';
+        if ($role === 'assistant')
+            $role = 'bot';
 
         $conversation = $conversationModel->findById($input['conversation_id']);
         if (!$conversation || $conversation['user_id'] != $userId) {
             Response::unauthorized('Accès non autorisé à cette conversation');
         }
 
-        
+
         $message = $messageModel->create(
             $input['conversation_id'],
-            $input['role'],
+            $role,
             $input['content']
         );
 

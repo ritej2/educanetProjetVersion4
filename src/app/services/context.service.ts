@@ -188,12 +188,18 @@ export class ContextService {
         const subjects = [
             { id: 'math', name: 'Mathématiques', score: getScore('q_math') },
             { id: 'science', name: 'Éveil scientifique', score: getScore('q_science') },
-            { id: 'anglais', name: 'Anglais', score: getScore('q_anglais') }
+            { id: 'anglais', name: 'Anglais', score: getScore('q_anglais') },
+            { id: 'lecture_ar', name: 'Lecture Arabe', score: getScore('q_lecture_ar') },
+            { id: 'prod_ar', name: 'Production Arabe', score: getScore('q_prod_ar') },
+            { id: 'dessin_musique', name: 'Dessin/Musique', score: getScore('q_dessin_musique') },
+            { id: 'eps', name: 'Education Physique', score: getScore('q_eps') },
+            { id: 'lecture_fr', name: 'Lecture Français', score: getScore('q_lecture_fr') },
+            { id: 'prod_fr', name: 'Production Français', score: getScore('q_prod_fr') }
         ];
 
         // Identifier les matières nécessitant un renforcement (score < 12)
         const weakSubjects = subjects
-            .filter(s => s.score !== undefined && s.score < 12)
+            .filter(s => s.score !== undefined && s.score !== null && s.score < 12)
             .map(s => s.name);
 
         return {

@@ -1,4 +1,4 @@
-/* Local Calendar Styles */
+/* Local Calendar Style 
 .calendar-header {
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,7 @@
 
 .day-cell.today {
     background: #fff8e1;
-    /* Light yellow highlight */
+   
 }
 
 .day-cell.today .day-number {
@@ -101,7 +101,7 @@
     opacity: 0.8;
 }
 
-/* Modal Styles */
+/* Modal Styles 
 .modal-overlay {
     position: fixed;
     top: 0;

@@ -172,7 +172,7 @@ export class ChatComponent implements OnInit, AfterViewChecked {
         let fullResponse = '';
         let firstChunkReceived = false;
 
-        this.aiChatService.sendMessageStream(messageText).subscribe({
+        this.aiChatService.sendMessageStream(messageText, this.currentConversationId).subscribe({
             next: (chunk) => {
                 if (!firstChunkReceived) {
                     firstChunkReceived = true;
@@ -189,10 +189,7 @@ export class ChatComponent implements OnInit, AfterViewChecked {
             },
             complete: () => {
                 this.isTyping = false;
-                // Save AI response to DB
-                if (this.currentConversationId) {
-                    this.chatHistoryService.saveMessage(this.currentConversationId, 'ai', fullResponse).subscribe();
-                }
+                // AI response is now saved directly by the RAG PHP script
             }
         });
     }
